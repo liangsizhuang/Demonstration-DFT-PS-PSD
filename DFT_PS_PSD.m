@@ -6,14 +6,14 @@ pause_time = 1;
 pause_time_audio = 0.2;
 
 % Effect of Changing N
-for N = 21:20:321
+for N = 20:20:320
     [x,~] = GetSine(f, varphi, Fs, N);
     myPlotDFT_PS_PSD(x, Fs);
     pause(pause_time);
 end
 
 % Effect of Changing varphi
-for varphi = 0:pi/8:2*pi
+for varphi = 0:pi/4:2*pi
     [x,~] = GetSine(f, varphi, Fs, N);
     myPlotDFT_PS_PSD(x, Fs);
     pause(pause_time);
