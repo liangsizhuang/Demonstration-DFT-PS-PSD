@@ -8,4 +8,4 @@ One can alternatively calculate the PSD with the periodogram function by specify
 
 In this demonstration, we start with a sinusoidal signal with various parameters. We then proceed with an actual audio signal.
 
-![alt text](https://github.com/liangsizhuang/Demonstration-DFT-PS-PSD/blob/master/Figure1.png)
+![alt text](https://github.com/liangsizhuang/Demonstration-DFT-PS-PSD/blob/master/figure.png)
