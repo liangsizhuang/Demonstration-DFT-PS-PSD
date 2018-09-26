@@ -7,3 +7,5 @@ One will see that the power spectrum is equal to the square of the absolute valu
 One can alternatively calculate the PSD with the periodogram function by specifying “psd” instead of “power”. The PSD obtained by periodogram is an Equivalent Noise Power Spectral Density (ENPSD). One can see that ENPSD is related to PS by a factor of 1/T. It should be noted that a power spectrum is a discrete sequence, or a discrete continuous-argument function, whereas an ENPSD is a non-discrete continuous argument function. To emphasize this, I used stem for power spectra and plot for ENPSD.
 
 In this demonstration, we start with a sinusoidal signal with various parameters. We then proceed with an actual audio signal.
+
+![alt text](https://github.com/liangsizhuang/Demonstration-DFT-PS-PSD/blob/master/Figure1.png)
