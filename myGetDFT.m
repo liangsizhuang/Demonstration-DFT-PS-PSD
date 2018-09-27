@@ -8,6 +8,7 @@ if(mod(N,2) == 0)
     f = -N/2:N/2-1; % Even
 else
     f = (-N+1)/2:(N-1)/2; % Odd
+end
 f = transpose(f/T);
 
 end
